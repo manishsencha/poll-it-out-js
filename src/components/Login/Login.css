@@ -1,0 +1,49 @@
+.login__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.login__form {
+  border: 3px solid #f1f1f1;
+  max-width: 400px;
+}
+
+.login__inputContainer > input[type="text"],
+.login__inputContainer > input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline-width: 0;
+}
+
+button {
+  background-color: #486cad;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.login__form > .login__imgContainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.login__avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.login__inputContainer {
+  padding: 16px;
+}

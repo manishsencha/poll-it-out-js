@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.header > .webpagename-container {
+    font-size: 34px;
+    font-weight: bold;
+}
